@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="animated_textView">
+        <attr name="animationType">
+            <enum name="fadeIn_fadeOut" value="1"/>
+            <enum name="fadeInfadeOut_translate" value="2"/>
+            <enum name="translate" value="3"/>
+        </attr>
+        <attr name="animationSpeed" format="reference|integer"/>
+    </declare-styleable>
+</resources>
